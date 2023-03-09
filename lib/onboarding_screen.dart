@@ -44,7 +44,7 @@ PageDecoration getPageDecoration() {
        pageColor:Colors.white,
       titleTextStyle: TextStyle(fontSize: 28,fontWeight:FontWeight.bold),
       bodyTextStyle: TextStyle(fontSize: 25),
-      //bodyPadding:EdgeInsets.fromLTRB(0, 5, 10, 10),
+      bodyPadding:EdgeInsets.fromLTRB(0, 5, 10, 10),
       imagePadding: EdgeInsets.only(top: 100),
    );
 }
