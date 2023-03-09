@@ -14,19 +14,19 @@ class Onboarding extends StatelessWidget {
            onDone: (){},
            pages:[
                PageViewModel(
-                 image:getImage('assets/images/img.png'),
+                 image:getImage('assets/images/92164-food-courier-deliver-order-to-client.gif'),
                  title: "Order",
                  body:"Best restaurants delivering to your doorstep. Browse menus and build your order in seconds",
                  decoration: getPageDecoration()
                ),
              PageViewModel(
-               image:getImage('assets/images/img_2.png'),
+               image:getImage('assets/images/91745-food-courier-accept-order.gif'),
                title: "Search",
                body:"Discover restaurants by type of meal ",
                decoration: getPageDecoration()
              ),
              PageViewModel(
-               image:getImage('assets/images/img_1.png'),
+               image:getImage('assets/images/99271-food-out-for-delivery.gif'),
                title: "Eat",
                body:"Explore curated lists of top restaurants, cafes. pubs, and bars in Mumbai, based on trends",
                decoration: getPageDecoration()
